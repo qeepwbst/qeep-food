@@ -32,7 +32,7 @@ Don't forgot your feedback or ratings.
 body {
   font-family: "Roboto", sans-serif;
   /* color: #666666; */
-  background-color: #023e48;
+  /* background-color: #023e48; */
   font-size: 15px;
   line-height: 25px;
   overflow-x: hidden;
@@ -96,7 +96,7 @@ img {
 }
 
 .header-menu li.active a {
-  color: red;
+  color: #ef4a2b;
 }
 
 
@@ -416,6 +416,10 @@ ul.right-social-ul li {
 /* ==========================
         Banner 
 ========================== */
+.banner {
+  height: 100vh;
+}
+
 
 .banner.banner-1 {
   background-repeat: no-repeat;
@@ -663,6 +667,12 @@ ul.right-social-ul li {
 /* =============================
             ABOUT
 ============================= */
+.about h2, .describe-section h2 {
+  color: #000;
+}
+.about p, .describe-section p {
+  color: #000;
+}
 
 .about-title {
   font-size: 36px;
@@ -762,7 +772,7 @@ img.cat-icon {
 .product-card {
   background: #fff;
   position: relative;
-  box-shadow: 0px 6px 20px 1px #ddd;
+  /* box-shadow: 0px 6px 20px 1px #ddd; */
 }
 
 .product-card:hover .product-img img {
@@ -1137,7 +1147,8 @@ img.app-one {
 	object-fit: cover;
 }
 .banner-bg {
-  height: 750px;
+  height: 100vh;
+  background-position: center;
   display: flex;
   align-items: center;
 }
@@ -1859,7 +1870,7 @@ span.swiper-pagination-bullet {
 }
 
 .second-home-nav {
-  background: #fff;
+  background: transparent;
   padding: 0 10px;
 }
 
@@ -2682,6 +2693,10 @@ img.app-tow {
 
 .customer-name {
   font-size: 20px;
+  color: #000;
+}
+.customer-details p {
+  color: #000;
 }
 
 
@@ -3037,7 +3052,7 @@ ul.cat-menu {
 .product-card {
   text-align: center;
   position: relative;
-  box-shadow: rgb(0 13 0) 0px 0px 41px 1px;
+  /* box-shadow: rgb(0 13 0) 0px 0px 41px 1px; */
   /* padding: 10px; */
   transition: 0.3s;
 }
@@ -3666,10 +3681,8 @@ thead.product-table {
 .footer-section {
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.footer-section {
   padding-top: 75px;
+  background-color: #023e48;
 }
 
 .footer-content-wrapper {
@@ -3987,11 +4000,11 @@ ul.social-ul {
 
 .header-menu li a {
   font-size: 15px;
-  color: #292929;
+  color: #fff;
   display: block;
   transition: 0.3s;
   padding: 20px 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 .header-menu li {
   display: inline-block;
@@ -4130,6 +4143,34 @@ ul.social-ul {
 
 .tp-btn:hover{
   color: white;
+}
+
+.header.qeep-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Change this to your preferred header background color */
+  color: #fff; /* Change this to your preferred text color */
+  padding: 20px;
+  transition: top 0.3s;
+  z-index: 999;
+}
+.hidden {
+  top: -100px; /* Move the header out of the viewport initially */
+}
+.scrolled .header-menu li a {
+  color: #fff;
+}
+
+.scrolled .header-menu li.active a {
+  color: #292929;
+}
+.scrolled  .header-inner {
+  background: #ef4a2b;
+}
+.scrolled .logo img {
+  filter: brightness(0) invert(1);
 }
 
 

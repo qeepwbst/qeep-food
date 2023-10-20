@@ -15,6 +15,7 @@ Don't forgot your feedback or ratings.
 /* ======all font use====== */
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -30,7 +31,8 @@ Don't forgot your feedback or ratings.
 /* ====end CSS Variable=== */
 
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "poppins";
   /* color: #666666; */
   /* background-color: #023e48; */
   font-size: 15px;
@@ -46,13 +48,13 @@ h5,
 h6 {
   /* color: #292929; */
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3;
   margin-bottom: 15px;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins";
   font-size: 15px;
   line-height: 25px;
   margin-bottom: 15px;
@@ -197,7 +199,7 @@ img {
 
 #preloader {
   position: fixed;
-  background: #fff;
+  background: #023e48;
   top: 0;
   left: 0;
   right: 0;
@@ -295,10 +297,15 @@ img {
   box-shadow: 0px 7px 20px 0px #adadad4a;
 }
 .header-default.header {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #023e48;
   position: relative;
   z-index: 1;
 }
+.icofont-search-1:before {
+  color: white !important;
+}
+
 .header {
   width: 100%;
   position: absolute;
@@ -981,6 +988,7 @@ img.app-one {
 
 .team {
   padding-top: 105px;
+  padding-bottom: 80px;
 }
 
 .member-img img {
@@ -1007,7 +1015,7 @@ img.app-one {
 }
 .team-card {
   text-align: center;
-  box-shadow: 0px 9px 20px 1px #98767626;
+  /* box-shadow: 0px 9px 20px 1px #98767626; */
 }
 
 .member-details {
@@ -1042,7 +1050,7 @@ img.app-one {
 }
 
 .team-card:hover::after {
-  background: #eae9e9;
+  /* background: #eae9e9; */
 }
 
 
@@ -1118,7 +1126,18 @@ img.app-one {
   color: #79a1bb;
   border-color: #79a1bb;
 }
+.availability {
+  position: relative;
+  z-index: 2;
+}
 
+.body-bg {
+  background-color: #023e48;
+}
+.blog-bg{
+background: #023e48;
+    border-bottom: 1px solid #154952;
+  }
 
 /* ====================responsive======== */
 
@@ -1509,7 +1528,7 @@ ul.cat-menu {
 .product-card {
   text-align: center;
   position: relative;
-  box-shadow: rgb(240 240 240) 0px 0px 41px 1px;
+  /* box-shadow: rgb(240 240 240) 0px 0px 41px 1px; */
   padding: 10px;
   transition: 0.3s;
 }
@@ -2565,7 +2584,8 @@ img.app-tow {
 
 .team-card {
   text-align: center;
-  box-shadow: 0px 9px 20px 1px #98767626;
+  /* box-shadow: 0px 9px 20px 1px #98767626; */
+  border: 1px solid #00879f;
 }
 
 .member-details {
@@ -2573,7 +2593,7 @@ img.app-tow {
 }
 
 .team-card::after {
-  content: "";
+  /* content: "";
   height: 2px;
   width: 65%;
   background: #ef4a2b;
@@ -2583,7 +2603,7 @@ img.app-tow {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
-  -o-transition: 0.3s;
+  -o-transition: 0.3s; */
 }
 .day{
   color: #000 !important;
@@ -2608,7 +2628,7 @@ img.app-tow {
   color: #292929;
 }
 .team-card:hover::after {
-  background: #ef4a2b;
+  /* background: #ef4a2b; */
 }
 
 /* ============availability===== */
@@ -2674,9 +2694,12 @@ img.app-tow {
   font-size: 16px !important;
 }
 
+
+
 .review {
   padding: 50px;
-  box-shadow: 0px 0px 13px 1px #ddd;
+  /* box-shadow: 0px 0px 13px 1px #ddd; */
+  border: 1px solid #00879f;
   border-left: 2px solid #ef4a2b;
   height: 100%;
   padding-top: 25px;
@@ -2693,7 +2716,8 @@ img.app-tow {
 
 .customer-name {
   font-size: 20px;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
 }
 .customer-details p {
   color: #000;
@@ -3822,7 +3846,8 @@ ul.social-ul {
 }
 
 .header-right-search-phone a {
-  color: #292929;
+  /* color: #292929; */
+  color: #fff;
   transition: 0.3s;
   font-weight: 500;
 }
@@ -5771,4 +5796,92 @@ span.sm-title.sm-title2 {
 }
 .dark-mode .date {
   color: #666;
+}
+/* solution section */
+.solution_top h2 {
+  margin-bottom: 92px;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 0!important;
+  color: #1d1d1d;
+  font-family: "Eina 03",sans-serif;
+  font-weight: bold;
+}
+
+.solution_top h2:after{
+  border-top: 3px solid #e62656;
+    content: "";
+    display: block;
+    height: 0;
+    margin-top: 10px;
+    width: 25px;
+}
+
+
+.solution_rightbox h3 {
+ font-family: "Eina 03",sans-serif;
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    margin: 12px 0;
+}
+
+.solution_rightbox p{
+  font-weight: 300;
+    letter-spacing: .03em;
+    line-height: 1.5;
+    margin: 15px 0 27px 0;
+}
+
+.solution_leftbox {
+  padding-left: 50px;
+  padding-right: 50px;
+}   
+
+.solution_leftbox h2{
+  color: #000;
+    font-size: 60px;
+    letter-spacing: .802444px;
+    line-height: 1.2;
+    margin: 30px 0;
+    padding: 0;
+}
+
+.solution_rightbox_pd{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.product-bg {
+  background-color: rgba(245, 245, 245, 1) !important;
+}
+
+.partner-bg-green{
+  padding: 82px 0;
+  background: #023e48 !important;
+}
+
+.latest-blog-bg{
+  background: #023e48;
+}
+
+.award-slider {
+  padding: 40px 10px;
+  border: 1px solid #00879f;
+}
+
+.client-result .post-card{ 
+  border: 1px solid #00879f;
+
+}
+
+.service-bg {
+  background-color: #023e48;
+}
+
+ul.service-list span {
+  color: #ef4a2b;
 }

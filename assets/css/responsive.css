@@ -53,6 +53,7 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px) { 
+
     .note-title {
         font-size: 32px;
     }
@@ -158,6 +159,8 @@
     }
     .smpadright40 .footer-content-wrapper {
         padding-right: 40px;
+        display: flex;
+        justify-content: center;
     }
     .padleft40 .footer-content-wrapper {
         padding-left: 0px;
@@ -246,6 +249,20 @@
     }
     .btn-sec .custom-btn {
         padding: 10px 20px;
+    }
+    .col-lg-3.col-md-6.col-sm-12.my-2.smpadright40.aos-init.aos-animate,.col-lg-3.padLeft.col-md-6.col-sm-12.my-2.aos-init.aos-animate{
+        width: 100% !important;
+    }
+    .last-footer {
+        padding: 0px 0px 10px 0px;
+        margin-top: 45px;
+    }
+    .footer-section {
+      padding-top: 45px;
+    }
+
+    .flex.justify-content-between.align-items-start.py-5 {
+        padding-bottom: 0px !important;
     }
 }
 
@@ -517,7 +534,24 @@
     }
     .smpadright40 .footer-content-wrapper {
         padding-right: 0;
+        display: flex;
+        align-items: center;
     }
+
+    .footer-content-wrapper.address-text {
+        width: 250px;
+      
+        margin: auto;
+    }
+    .footer-content-wrapper.address-text p{
+              text-align: center;
+    }
+
+    .footer-logo  {
+        margin: auto;
+    }
+
+
     .postbox__title {
         font-size: 24px;
     }

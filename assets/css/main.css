@@ -48,7 +48,7 @@ h5,
 h6 {
   /* color: #292929; */
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3;
   margin-bottom: 15px;
 }
@@ -3214,6 +3214,9 @@ ul.rating li span.unrated {
 .post-details {
   padding: 20px 25px;
 }
+.post-details p{
+  color: #8c8c8c;
+}
 
 .post-des {
   padding: 15px 0;
@@ -3706,7 +3709,7 @@ thead.product-table {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 75px;
-  background-color: #023e48;
+  background-color: #242424;
 }
 
 .footer-content-wrapper {
@@ -3738,7 +3741,7 @@ ul.address li span {
   display: inline-block;
 }
 
-.footer-widget-title:after {
+.footer-widget-title:after{
   content: "";
   height: 2px;
   width: 70%;
@@ -3798,11 +3801,11 @@ ul.social-ul {
   color: #ef4a2b;
 }
 
-.last-footer {
+/* .last-footer {
   padding: 20px 0px;
   border-top: 1px solid #444;
   margin-top: 65px;
-}
+} */
 
 .copyright-text {
   color: #fff;
@@ -5865,7 +5868,9 @@ span.sm-title.sm-title2 {
 }
 
 .latest-blog-bg{
-  background: #023e48;
+  /* background: #023e48; */
+  /* background: #808080; */
+  background-color: whitesmoke;
 }
 
 .award-slider {
@@ -5884,4 +5889,46 @@ span.sm-title.sm-title2 {
 
 ul.service-list span {
   color: #ef4a2b;
+}
+
+.ml50 {
+padding-left: 100px;
+}
+
+.last-footer {
+  padding: 20px 0px 10px 0px;
+  /* border-top: 1px solid #00879f; */
+  border-top:1px solid #494747;
+  margin-top: 65px;
+}
+
+svg {
+  fill: #fff;
+  height: 20px;
+  width: 20px;
+}
+.social-gap {
+gap: 15px;
+}
+.social-link-text span {
+  font-size: 22px;
+}
+h6.footer-widget-title1{
+  position: relative;
+}
+
+h6.footer-widget-title1:after {
+  content: "";
+  height: 2px;
+  width: 70px;
+  background: #fff;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+
+.padLeft .footer-content-wrapper {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
 }

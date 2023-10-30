@@ -1,1989 +1,1371 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from cafeu-html.codebasket.net/cafeu-html/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Oct 2023 10:23:49 GMT -->
+  <!-- Mirrored from validthemes.net/site-template/avrix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Oct 2023 04:42:36 GMT -->
+  <head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Qeep Food - Marketing Agency" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Codebasket" />
-  <meta name="keywords"
-    content="Cafeu, food, restaurant, html, template, bootstrap, business, clean, creative, designer, responsive, minimal" />
-  <meta name="type" content="Restaurant Template" />
-  <title>Home | Qeep</title>
-  <!-- ==============favicon=============== -->
-  <link rel="shortcut icon" type="image/png" href="assets/img/Fevicon.png" />
+    <!-- ========== Page Title ========== -->
+    <title>Qeep Food - Marketing Agency</title>
 
-  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/font/icofont.min.css" />
-  <link rel="stylesheet" href="assets/css/animation/aos.css" />
-  <link rel="stylesheet" href="assets/css/meanmenu.css" />
-  <link rel="stylesheet" href="assets/css/nice-select.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-</head>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/fav.svg" type="image/x-icon" />
 
-<body>
-  <!-- ======preloader==== -->
-  <div id="preloader">
-    <div class="loader3">
-      <span></span>
-      <span></span>
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <link href="assets/css/validnavs.css" rel="stylesheet" />
+    <link href="assets/css/helper.css" rel="stylesheet" />
+    <link href="assets/css/unit-test.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+  </head>
+
+  <body class="bg-dark">
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader">
+      <div id="avrix-preloader" class="avrix-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+        </div>
+        <div class="loader">
+          <div class="row">
+            <div class="col-3 loader-section section-left">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-left">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+              <div class="bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- ======preloader==== -->
-  <!-- ====main wrapper == -->
-  <div class="wrapper">
-    <!-- header  -->
+    <!-- End Preloader -->
+
+    <!-- Header 
+    ============================================= -->
     <header>
-      <!-- header  -->
-      <div id="site-header" class="header qeep-header hidden">
-        <!-- container  -->
-        <div class="container">
-          <!-- header inner -->
-          <div class="header-inner second-home-nav">
-            <div class="logo">
-              <a href="index.html"><img src="assets/img/logo.svg" alt="Logo not found" class="logo-img" /></a>
+      <!-- Start Navigation -->
+      <nav
+        class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed no-background"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <!-- Start Header Navigation -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/qeeplogo.svg" class="logo" alt="Logo" />
+            </a>
+          </div>
+          <!-- End Header Navigation -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <img src="assets/img/qeeplogo.svg" alt="Logo" />
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-times"></i>
+            </button>
+
+            <ul
+              class="nav navbar-nav navbar-center"
+              data-in="fadeInDown"
+              data-out="fadeOutUp"
+            >
+              <!-- <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle active"
+                  data-toggle="dropdown"
+                  >Home</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="index.html">Digital Agency</a></li>
+                  <li><a href="index-2.html">Portfolio Interactive</a></li>
+                  <li><a href="index-3.html">Creative Agency</a></li>
+                  <li><a href="index-4.html">Parallax Portfolio</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                      >Home Light Version</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li><a href="index-light.html">Digital Agency</a></li>
+                      <li><a href="index-3-light.html">Creative Agency</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="/">About Us</a></li>
+                  <li><a href="team.html">Team Members</a></li>
+                  <li><a href="team-details.html">Team Details</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      Projects</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li><a href="project.html">Project Showcase</a></li>
+                      <li>
+                        <a href="/">Project Details</a>
+                      </li>
+                      <li>
+                        <a href="project-details-2.html">Project Details Two</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="/">Contact Us</a></li>
+                  <li><a href="404.html">Error Page</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >Services</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="services.html">Service Version One</a></li>
+                  <li><a href="services-2.html">Service Version Two</a></li>
+                  <li>
+                    <a href="services-details.html">Marketing Strategy</a>
+                  </li>
+                  <li>
+                    <a href="services-details.html">Enterprise Consulting</a>
+                  </li>
+                  <li><a href="services-details.html">Growth Tracking</a></li>
+                  <li>
+                    <a href="services-details.html">Social Media Marketing</a>
+                  </li>
+                  <li><a href="services-details.html">Keyword Research</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >Blog</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="blog-standard.html">Blog Standard</a></li>
+                  <li>
+                    <a href="blog-with-sidebar.html">Blog With Sidebar</a>
+                  </li>
+                  <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
+                  <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                  <li>
+                    <a href="/"
+                      >Blog Single With Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li> -->
+              <li><a href="/">Services</a></li>
+              <li><a href="/">Work</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Content Hub</a></li>
+              <li><a href="/">Get In Touch</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+
+          <div class="attr-right">
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav flex">
+              <ul>
+                <li class="side-menu">
+                  <a href="#">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="header-right">
-              <div class="header-menu d-none d-lg-block">
-                <nav class="cf-header-menu" id="header-menu">
+            <!-- End Atribute Navigation -->
+
+            <!-- Start Side Menu -->
+            <div class="side">
+              <a href="#" class="close-side"><i class="fas fa-times"></i></a>
+              <div class="widget">
+                <div class="logo">
+                  <img src="assets/img/qeeplogo.svg" alt="Logo" />
+                </div>
+              </div>
+              <div class="widget">
+                <p>
+                  Digital marketing is the component of marketing that uses the
+                  Internet and online based digital technologies such as desktop
+                  computers, mobile phones and other digital media and platforms
+                  to promote products and services.
+                </p>
+              </div>
+              <div class="widget address">
+                <div>
                   <ul>
-                    <!-- <li class=""><a href="index.html">Home</a></li> -->
-                    <li class="active1"><a href="service.html">Service</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <!-- <li class=""><a href="blog.html">Blog</a></li> -->
-
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                      <div class="content">
+                        <p>Address</p>
+                        <strong>California, TX 70240</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="content">
+                        <p>Email</p>
+                        <strong>support@validtheme.com</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="content">
+                        <p>Contact</p>
+                        <strong>+44-20-7328-4499</strong>
+                      </div>
+                    </li>
                   </ul>
-                </nav>
+                </div>
               </div>
-              <div class="right-menu-icon">
-                <ul class="d-flex align-items-center">
-                  <li class="nav-list">
-                    <a href="#" class="nav-link icon-item" id="search">
-                      <!-- <span
-                                                class="icofont-search-1"></span> -->
-                    </a>
+              <div class="widget newsletter">
+                <h4 class="title">Get Subscribed!</h4>
+                <form action="#">
+                  <div class="input-group stylish-input-group">
+                    <input
+                      type="email"
+                      placeholder="Enter your e-mail"
+                      class="form-control"
+                      name="email"
+                    />
+                    <span class="input-group-addon">
+                      <button type="submit">
+                        <i class="fas fa-arrow-right"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+              <div class="widget social">
+                <ul class="link">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                   </li>
-                  <li class="nav-list">
-                    <a href="#" class="nav-link icon-item">
-                      <!-- <span
-                                                class="icofont-shopping-cart"> 
-                                                <span class="cart-count">4</span>
-                                            </span> -->
-                    </a>
-                    <div class="cart-menu">
-                      <ul class="cart-ul">
-                        <li class="cart-list">
-                          <div class="d-flex align-items-center">
-                            <div class="cart-img">
-                              <img src="assets/img/product/14.png" alt="Image not found" />
-                            </div>
-                            <div class="cart-product-details">
-                              <a href="#" class="product-name cart-px-name">Roast Fish with Lemon</a>
-                              <p class="price">$35 - $25</p>
-                            </div>
-                          </div>
-                          <a href="#" class="remove-icon"><span class="icofont-ui-delete"></span></a>
-                        </li>
-                        <li class="cart-list">
-                          <div class="d-flex align-items-center">
-                            <div class="cart-img">
-                              <img src="assets/img/product/15.png" alt="Image not found" />
-                            </div>
-                            <div class="cart-product-details">
-                              <a href="#" class="product-name cart-px-name">Fried Chicken, Biryani</a>
-                              <p class="price">$25 - $27</p>
-                            </div>
-                          </div>
-                          <a href="#" class="remove-icon"><span class="icofont-ui-delete"></span></a>
-                        </li>
-                        <li class="cart-list">
-                          <div class="d-flex align-items-center">
-                            <div class="cart-img">
-                              <img src="assets/img/product/16.png" alt="Image not found" />
-                            </div>
-                            <div class="cart-product-details">
-                              <a href="#" class="product-name cart-px-name">Rice and curry Pakistani</a>
-                              <p class="price">$15 - $25</p>
-                            </div>
-                          </div>
-                          <a href="#" class="remove-icon"><span class="icofont-ui-delete"></span></a>
-                        </li>
-                        <li class="cart-list">
-                          <div class="d-flex align-items-center">
-                            <div class="cart-img">
-                              <img src="assets/img/product/12.png" alt="Image not found" />
-                            </div>
-                            <div class="cart-product-details">
-                              <a href="#" class="product-name cart-px-name">Maenaam Thai Restaurant</a>
-                              <p class="price">$44 - $40</p>
-                            </div>
-                          </div>
-                          <a href="#" class="remove-icon"><span class="icofont-ui-delete"></span></a>
-                        </li>
-                      </ul>
-                      <div class="cart-modal-btn">
-                        <a href="wishlist.html" class="custom-btn">Wishlist</a>
-                        <a href="cart.html" class="custom-btn">Cart</a>
-                      </div>
-                    </div>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                   </li>
-                  <li class="nav-list">
-                    <a href="#" class="nav-link icon-item">
-                      <!-- <span
-                                                class="icofont-ui-user">
-                                            </span> -->
-                    </a>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-behance"></i></a>
                   </li>
                 </ul>
               </div>
-              <div class="d-lg-none dr-navbar-mobile-sign side-toggle">
-                <div class="dr-navbar-sign menu-tab">
-                  <span class="dr-line-1"></span>
-                  <span class="dr-line-2"></span>
-                  <span class="dr-line-3"></span>
-                </div>
-              </div>
             </div>
+            <!-- End Side Menu -->
           </div>
-          <!-- header inner end  -->
-
-          <!-- search form  -->
-          <div class="search-form-wrapper">
-            <form action="#">
-              <div class="p-1 bg-light search-form shadow-sm mt-3" id="searchForm">
-                <div class="input-group">
-                  <input type="search" placeholder="What're you searching for?"
-                    class="form-control search-input border-0 bg-light" />
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- search form end  -->
+          <!-- Main Nav -->
         </div>
-        <!-- container end  -->
-      </div>
-      <!-- nav end -->
+        <!-- Overlay screen for menu -->
+        <div class="overlay-screen"></div>
+        <!-- End Overlay screen for menu -->
+      </nav>
+      <!-- End Navigation -->
     </header>
-    <!-- header end  -->
+    <!-- End Header -->
 
-    <!-- dr-sidebar-information-area-start -->
-    <div class="dr-sidebar-info side-info header-side-info-2">
-      <div class="dr-sidebar-logo-wrapper mb-25">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-8">
-            <div class="dr-sidebar-logo">
-              <a href="index.html"><img src="assets/img/logo.svg" alt="Logo not found" class="logo-img" /></a>
-            </div>
-          </div>
-          <div class="col-xl-6 col-4">
-            <div class="dr-sidebar-close-wrapper text-end">
-              <button class="dr-sidebar-close side-info-close">
-                <i class="icofont-close-line"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="dr-sidebar-menu-wrapper fix">
-        <div class="cf-header-menu"></div>
-      </div>
-
-      <!-- <div class="dr-sidebar-btn-wrap mt-40">
-        <a href="#"><span class="icofont-shopping-cart"><span class="cart-count">4</span></span></a>
-        <a href="#"><i class="icofont-ui-user"></i></a>
-      </div>
-
-      <div class="dr-sidebar-contact-wrapper mt-40">
-        <div class="dr-sidebar-contact mb-40">
-          <h4 class="dr-sidebar-contact-title">Contact Info</h4>
-          <span class="sidebar-address"><i class="icofont-google-map"></i><span>4929 Thorn Street Crow heart, WY
-              82512</span>
-          </span>
-          <a href="tel:+1(251)410-1010"><i class="icofont-phone"></i><span>+1 (251) 410-1010</span></a>
-          <a href="mailto:example@gmail.com" class="theme-3"><i
-              class="icofont-envelope-open"></i><span><span>example@gmail.com</span></span></a>
-        </div>
-
-        <div class="dr-sidebar-social mt-40 mb-30">
-          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="youtube"><i class="fab fa-dribbble"></i></a>
-        </div>
-      </div> -->
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- dr-sidebar-information-area-end -->
-
-    <!-- =======================body wrapper========= -->
-    <div class="body-wrapper">
-      <!-- ==============================================
-                    Banner
-            =============================================== -->
-      <section>
-        <!-- banner  -->
-        <div class="banner banner-2">
-          <!-- banner slider  -->
-          <div class="swiper bannerSlider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="banner-bg bannerone">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-10 col-lg-9 col-xl-8 my-2" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="slider-details">
-                          <div class="text-inner">
-                            <span class="sm-title sm-title2 mb-0">Best In Pepperoni</span>
-                            <h1 class="banner-title banner-title2">
-                              Sweet Crispy and Spicy Pepperoni
-                            </h1>
-                            <!-- <p class="banner-des banner-des2">
-                              Lorem ipsum dolor sit amet, conscetur adipiscing
-                              elit, <br />
-                              tempor incididunt
-
-                            </p> -->
-
-                            <div class="banner-btn-sec mt-3">
-                              <a href="#" class="custom-btn">Order Now</a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="banner-bg banner-img-tow">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-10 col-lg-9 col-xl-8 my-2" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="slider-details">
-                          <div class="text-inner">
-                            <span class="sm-title sm-title2 mb-0">Best In Fish</span>
-                            <h1 class="banner-title banner-title2">
-
-                              Fresh Fish in your City
-
-                            </h1>
-                            <!-- <p class="banner-des banner-des2">
-                              Lorem ipsum dolor sit amet, conscetur adipiscing
-                              elit, <br />
-                              tempor incididunt
-
-                            </p> -->
-
-                            <div class="banner-btn-sec mt-3">
-                              <a href="#" class="custom-btn">Order Now</a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="banner-bg banner-img-there">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-10 col-lg-9 col-xl-8 my-2" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="slider-details">
-                          <div class="text-inner">
-                            <span class="sm-title sm-title2 mb-0">Best In Meet</span>
-                            <h1 class="banner-title banner-title2">
-                              Order Healthy Fresh Food
-                            </h1>
-                            <!-- <p class="banner-des banner-des2">
-                              Lorem ipsum dolor sit amet, conscetur adipiscing
-                              elit, <br />
-                              tempor incididunt
-                            </p> -->
-
-                            <div class="banner-btn-sec mt-3">
-                              <a href="#" class="custom-btn">Order Now</a>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="banner-pagination"></div>
-          </div>
-          <!-- slider end  -->
-        </div>
-        <!-- banner end  -->
-        <!-- ========video model======= -->
-        <div id="video-overlay" class="video-overlay">
-          <a class="video-overlay-close">&times;</a>
-        </div>
-      </section>
-
-      <!-- ==============================================
-                    Banner end
-            =============================================== -->
-
-      <!-- ==============================================
-                                About
-            =============================================== -->
-
-
-
-
-            <section>
-              <div class="about about-1 cpy-8">
-                  <!-- container  -->
-                  <div class="container">
-                      <!-- row  -->
-                      <div class="row">
-                        <div class="section-head text-center aos-init aos-animate mb-5" data-aos="fade-up" data-aos-duration="1000">
-                          <span class="sm-title">Solutions</span>
-                          <h2 class="sec-title text-black">
-                            Why We Are The Best</h2>
-                      </div>
-                          <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
-                              <div class="about-text">
-                                  <!-- <img src="assets/img/image/exparience.png" alt=""> -->
-                                  <div >
-                                    <h2 class="text-black">Solutions</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id vel, cumque error corrupti rerum doloremque iste dolore accusamus tenetur enim eius autem laudantium rem provident voluptatem illum reiciendis explicabo laborum?</p>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa eveniet porro quis beatae expedita itaque consequuntur, laborum praesentium aperiam delectus eligendi dignissimos assumenda facilis dicta accusantium eum asperiores incidunt?</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique ullam debitis natus, voluptate modi sit iure voluptatibus repudiandae exercitationem eius, veniam vero? Voluptatem nobis est consequuntur provident necessitatibus. Architecto.</p>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
-                              <div class="h-100 d-flex align-items-center pl-40">
-                                  <div class="about-details">
-                                      <!-- <span class="sm-title">Solutions</span> -->
-                                      <!-- <h2 class="about-title mb-3">
-                                          Why We Are The Best
-                                      </h2> -->
-                                      <p class="about-des mb-4">
-                                          Quis autem vel eum iure reprehenderit qui in evoluptate velit esse qua nihil
-                                          <br> molestiae consequatur, vel illum qui dolorem eum fugiat quvoluptas nulla <br> pariatureaque ipsa quae ab illo inventore veritatis et quasi architecto <br> beatae vitae dicta sunt explicabo.
-                                      </p>
-                                      <div class="service-list">
-                                          <ul class="service-ul">
-                                              <li class="ab-service-li mb-4">
-                                                  <div class="service-icon">
-                                                      <img src="assets/img/icon/5.png" alt="">
-                                                  </div>
-                                                  <div class="service-name-des">
-                                                      <h4 class="service-name mb-1 text-black">Buffet Service</h4>
-                                                      <p class="service-des">
-                                                          Qariatureaque ipsa quae a illo inventore <br> veritatis et quasi architecto
-                                                      </p>
-                                                  </div>
-                                              </li>
-                                              <li class="ab-service-li mb-4">
-                                                  <div class="service-icon">
-                                                      <img src="assets/img/icon/6.png" alt="">
-                                                  </div>
-                                                  <div class="service-name-des">
-                                                      <h4 class="service-name mb-1 text-black">Online Booking</h4>
-                                                      <p class="service-des">
-                                                          Qariatureaque ipsa quae a illo inventore <br> veritatis et quasi architecto
-                                                      </p>
-                                                  </div>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                      <!-- <div class="service-button-wrap mt-40">
-                                          <a href="about.html" class="custom-btn">About Us</a>
-                                      </div> -->
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- row end  -->
-                  </div>
-                  <!-- container end  -->
-              </div>
-          </section>
-
-
-
-      <!-- ==============================================
-                                About end
-            =============================================== -->
-
-      <!-- ==============================================
-                            Describe section
-            ============================================== -->
-      <!-- <div class="cb-item-info-area home5-info dark-mode pt-105 pb-65"> -->
-      <!-- <div class="main-container d-flex justify-content-center">
-        <hr class="divider" />
-      </div>
-      <div class="describe-section">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 order-1 order-lg-0" data-aos="fade-up" data-aos-duration="1000">
-              <div class="cb-item-info-content mb-40">
-                <h2 class="title mb-20">
-                  We With The Aspects Food Professional Services
-                </h2>
-                <p>
-                  it is dolor sit amet consectetur adipisicing elit. Voluptatem
-                  ratione nisi aspernatur, tempora illo ea inventore repellat
-                  ullam nobis nulla numquam ipsam ad quibusdam doloribus quia
-                  autem incidunt dolore, dolorum quisquam eligendi? Deleniti in,
-                  aut dolores neque magnam veniam earum quaerat? Laboriosam
-                  inventore dolor.
-                </p>
-                <a href="#" class="about-2-button custom-btn">Shop Now</a>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 order-0 order-lg-1" data-aos="fade-up" data-aos-duration="1500">
-              <div class="cb-item-info-img w-100 mb-40 pl-50 text-lg-end">
-                <img src="assets/img/image/dish.png" alt="img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- </div> -->
-
-
-<!--- menu section start-->
-
-
-
-
-<section>
-  <!-- latest blog  -->
-  <div class="latest-blog latest-blog-1 cpy-8 latest-blog-bg">
-      <!-- container  -->
+    <!-- Start Banner 
+    ============================================= -->
+    <div
+      class="banner-style-one banner-bg-content"
+      style="background-image: url(assets/img/shape/1.png)"
+    >
       <div class="container">
-          <!-- section head  -->
-          <div class="section-head text-center " data-aos="fade-up" data-aos-duration="1000">
-              <span class="sm-title">Reviews</span>
-              <h2 class="sec-title text-white">Client Results</h2>
+        <div class="row align-center">
+          <div class="col-lg-8 banner-one-item">
+            <h4>Creative digital studio</h4>
+            <h2>Build great <strong>portfolio</strong></h2>
           </div>
-          <!-- section head end  -->
-          <!-- row  -->
-          <div class="row mt-40 client-result">
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
-                  <div class="post-card">
-                      <div class="post-img">
-                          <a href="singel-post.html"><img src="assets/img/blog/1.png" alt="Image not found"></a>
-                      </div>
-                      <div class="post-details">
-                          <a href="singel-post.html" class="post-title">New Restaurant Town Our Ple Award
-                              Contract</a>
-                          <p class="post-des">Drive your business and manage ris with a global industry leader.</p>
-
-                          <div class="date-view">
-                              <p class="date mb-0">Jan 1, 2022 - Comments</p>
-                              <a href="singel-post.html" class="view-more">Read More</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="post-card">
-                      <div class="post-img">
-                          <a href="singel-post.html"><img src="assets/img/blog/2.png" alt="Image not found"></a>
-                      </div>
-                      <div class="post-details">
-                          <a href="singel-post.html" class="post-title">Greek yogurt breakfast bowls Ple
-                              Award Contract</a>
-                          <p class="post-des">Drive your business and manage ris with a global industry leader.</p>
-
-                          <div class="date-view">
-                              <p class="date mb-0">Jan 1, 2022 - Comments</p>
-                              <a href="singel-post.html" class="view-more">Read More</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4" data-aos="fade-up" data-aos-duration="2000">
-                  <div class="post-card">
-                      <div class="post-img">
-                          <a href="singel-post.html"><img src="assets/img/blog/3.png" alt="Image not found"></a>
-                      </div>
-                      <div class="post-details">
-                          <a href="singel-post.html" class="post-title">Make Authentic Italian Marg Herita
-                              Pizza at Home</a>
-                          <p class="post-des">Drive your business and manage ris with a global industry leader.</p>
-
-                          <div class="date-view">
-                              <p class="date mb-0">Jan 1, 2022 - Comments</p>
-                              <a href="singel-post.html" class="view-more">Read More</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
+          <div class="col-lg-3 offset-lg-1 banner-one-item text-center">
+            <div class="curve-text">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 150 150"
+                version="1.1"
+              >
+                <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                <text>
+                  <textPath href="#textPath">Award Winning Agency</textPath>
+                </text>
+              </svg>
+              <a
+                href="https://www.youtube.com/watch?v=ipUuoMCEbDQ"
+                class="popup-youtube"
+                ><i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
           </div>
-          <!-- row end  -->
+        </div>
       </div>
-      <!-- container end  -->
-  </div>
-  <!-- latest blog end  -->
-</section>
+    </div>
+    <!-- End Banner -->
 
-<!-----------------menu section End ---------------->
-
-
-<section>
-  <!-- ==============Partner========== -->
-  <div class="partner cmy-8" >
-      <!-- partner bg  -->
-      
-      <div class="partner-bg-green" >
-          <!-- container  -->
-          <div class="container">
-              <div class="row">
-                <div class="section-head text-center aos-init aos-animate mb-5" data-aos="fade-up" data-aos-duration="1000">
-                  <span class="sm-title">New</span>
-                  <h2 class="sec-title text-white">
-                   Latest Award</h2>
-              </div>
-                  <div class="col-12 award-slider" data-aos="fade-up" data-aos-duration="1000">
-                      <div class="swiper swiper-container partner-active">
-                          <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                  <div class="partner-logo">
-                                      <img src="assets/img/partner/1.png" alt="Image not found">
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">                                
-                                  <div class="partner-logo">
-                                      <img src="assets/img/partner/2.png" alt="Image not found">
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="partner-logo">
-                                      <img src="assets/img/partner/3.png" alt="Image not found">
-                                  </div>
-  
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="partner-logo">
-                                      <img src="assets/img/partner/4.png" alt="Image not found">
-                                  </div>
-  
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- container end  -->
-      </div>
-      <!-- partner bg end  -->
-  </div>
-  <!-- ==============Partner end========== -->
-  </section>
-
-
-      <!-- <section class="menu-book tabs position-re pb-90 mt-0" data-scroll-index="1">
-        <div class="container">
-          <div class="row">
-            <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
-              <div class="cb-section-title text-center mb-40">
-                <p class="cb-section-icon mb-0">
-                  <span class="cb-section-icon-inner"><i class="icofont-beans"></i></span>
-                </p>
-                <span class="cb-section-subtitle">Dishes</span>
-                <h2 class="cb-section-title">Popular Dishes</h2>
+    <!-- Start Background Move 
+    ============================================= -->
+    <div class="banner-animation-zoom">
+      <div
+        class="animation-zoom-banner"
+        id="js-hero"
+        style="
+          background-image: url(https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/Homepage2/hero-1.png);
+        "
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-6">
+            <div class="experience-box">
+              <div class="inner-content">
+                <h2><strong>28+</strong> Years of experience</h2>
                 <p>
-                  Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor <br />incididunt ut labore et dolore magna
-                  aliqua. Quis ipsum susp
+                  These cases are perfectly simple and easy to distinguish. In a
+                  free hour, when our power of choice is untrammelled data
+                  structure.
                 </p>
+                <a class="btn-animation" href="/"
+                  ><i class="fas fa-arrow-right"></i>
+                  <span>Our Services</span></a
+                >
               </div>
             </div>
           </div>
-          <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1500">
-            <div class="col-md-12">
-              <div class="tab-links mb-45">
-                <ul class="text-center">
-                  <li class="item-link current" data-tab="tab-1">Starters</li>
-                  <li class="item-link" data-tab="tab-2">Mains</li>
-                  <li class="item-link" data-tab="tab-3">Salads</li>
-                  <li class="item-link" data-tab="tab-4">Desserts</li>
-                  <li class="item-link" data-tab="tab-5">Wine</li>
+        </div>
+      </div>
+    </div>
+    <!-- End Background Move -->
+
+    <!-- Start Services
+    ============================================= -->
+    <div class="creative-services-area overflow-hidden default-padding">
+      <div class="bg-static">
+        <img
+          class="bg-move"
+          src="assets/img/shape/5.png"
+          alt="Image Not Found"
+        />
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="site-heading">
+              <h4 class="sub-title">Services We Offer</h4>
+              <h2 class="title">
+                Turn Information <br />
+                Into Actionable Insights
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-stage">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="services-item-one-items">
+              <!-- Navigation -->
+              <div class="services-nav">
+                <div class="nav-items">
+                  <div class="services-button-prev"></div>
+                  <div class="services-button-next"></div>
+                </div>
+              </div>
+              <div class="services-carousel swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Single Item -->
+                  <div class="swiper-slide">
+                    <div class="cteative-service-item">
+                      <img src="assets/img/icon/1.png" alt="Icon" />
+                      <h4>
+                        <a href="services-details.html">Digital Marketing</a>
+                      </h4>
+                      <p>
+                        Continued at up zealously necessary is regular
+                        breakfast. Surrounded motionless she end literature.
+                        Time is neglects supported yet melancho themselve.
+                        Biggest agencies. The user experience: the first mention
+                        of the user and its.
+                      </p>
+                      <span>01</span>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+                  <!-- Single Item -->
+                  <div class="swiper-slide">
+                    <div class="cteative-service-item">
+                      <img src="assets/img/icon/2.png" alt="Icon" />
+                      <h4>
+                        <a href="services-details.html">Growth Tracking</a>
+                      </h4>
+                      <p>
+                        Continued at up zealously necessary is regular
+                        breakfast. Surrounded motionless she end literature.
+                        Time is neglects supported yet melancho themselve.
+                        Biggest agencies. The user experience: the first mention
+                        of the user and its.
+                      </p>
+                      <span>02</span>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+                  <!-- Single Item -->
+                  <div class="swiper-slide">
+                    <div class="cteative-service-item">
+                      <img src="assets/img/icon/3.png" alt="Icon" />
+                      <h4>
+                        <a href="services-details.html">Product Branding</a>
+                      </h4>
+                      <p>
+                        Continued at up zealously necessary is regular
+                        breakfast. Surrounded motionless she end literature.
+                        Time is neglects supported yet melancho themselve.
+                        Biggest agencies. The user experience: the first mention
+                        of the user and its.
+                      </p>
+                      <span>03</span>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+                  <!-- Single Item -->
+                  <div class="swiper-slide">
+                    <div class="cteative-service-item">
+                      <img src="assets/img/icon/4.png" alt="Icon" />
+                      <h4>
+                        <a href="services-details.html"
+                          >Enterprise Consulting</a
+                        >
+                      </h4>
+                      <p>
+                        Continued at up zealously necessary is regular
+                        breakfast. Surrounded motionless she end literature.
+                        Time is neglects supported yet melancho themselve.
+                        Biggest agencies. The user experience: the first mention
+                        of the user and its.
+                      </p>
+                      <span>04</span>
+                    </div>
+                  </div>
+                  <!-- End Single Item -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Start About 
+    ============================================= -->
+    <div class="about-area default-padding-bottom relative">
+      <div class="blur-bg-theme"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-7 col-lg-6">
+            <div class="about-style-one-thumb animate" data-animate="fadeInUp">
+              <img
+                src="https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/Homepage3/hero-1.png"
+                alt="Image Not Found"
+              />
+              <div
+                class="fun-fact text-light animate"
+                data-animate="fadeInDown"
+                data-duration="1s"
+              >
+                <div class="counter">
+                  <div class="timer" data-to="38" data-speed="2000">38</div>
+                  <div class="operator">K</div>
+                </div>
+                <span class="medium">Completed Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-6 pl-80 pl-md-15 pl-xs-15">
+            <div class="about-style-one">
+              <h2 class="title mb-30">Creative process in our agency</h2>
+              <p>
+                From traditional and thought leadership campaigns to compress.
+                storytelling and creative social media management we’ve got you
+                covered. Something is not your average order-taking vendor. We
+                are proud to be the go-to partner for some of the world’s
+                biggest international agencies andbrands. Seeing rather her.
+              </p>
+              <ul class="list-simple">
+                <li>Amazing communication.</li>
+                <li>Best trendinf designing experience.</li>
+              </ul>
+              <a href="/" class="arrow-btn"
+                ><i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Portfolio 
+    ============================================= -->
+    <div class="portfolio-style-one-area default-padding bg-gray">
+      <div class="container">
+        <div class="heading-left">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content-left">
+                <h4 class="sub-title">Popular Projects</h4>
+                <h2 class="title">Featured Works</h2>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+              <p>
+                Continue indulged speaking the was out horrible for domestic
+                position. Seeing rather her you not esteem men settle genius
+                excuse. Deal say over you age from. Comparison new ham
+                melancholy themselves.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row mt--50 mt-md-3-0 mt-xs--30">
+          <!-- Single Item -->
+          <div class="col-lg-6 item-center">
+            <div class="portfolio-style-one animate" data-animate="fadeInUp">
+              <div class="thumb-zoom">
+                <img
+                  src="https://www.spheretheme.com/html/steam/assets/images/background/banner-3.jpg"
+                  alt="Image Not Found"
+                />
+              </div>
+              <div class="pf-item-info">
+                <div class="content-info">
+                  <span>Marketing</span>
+                  <h2>
+                    <a href="/">Photo shooting and editing</a>
+                  </h2>
+                </div>
+                <div class="button">
+                  <a href="/" class="pf-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+          <!-- Single Item -->
+          <div class="col-lg-6 item-center">
+            <div
+              class="portfolio-style-one animate"
+              data-animate="fadeInDown"
+              data-duration="1.5s"
+            >
+              <div class="thumb-zoom">
+                <img
+                  src="https://www.spheretheme.com/html/steam/assets/images/background/banner-4.jpg"
+                  alt="Image Not Found"
+                />
+              </div>
+              <div class="pf-item-info">
+                <div class="content-info">
+                  <span>Creative</span>
+                  <h2>
+                    <a href="/">Quality in industrial design</a>
+                  </h2>
+                </div>
+                <div class="button">
+                  <a href="/" class="pf-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+          <!-- Single Item -->
+          <div class="col-lg-6 item-center">
+            <div
+              class="portfolio-style-one animate"
+              data-animate="fadeInUp"
+              data-duration="2s"
+            >
+              <div class="thumb-zoom">
+                <img
+                  src="https://www.spheretheme.com/html/steam/assets/images/background/banner-1.jpg"
+                  alt="Image Not Found"
+                />
+              </div>
+              <div class="pf-item-info">
+                <div class="content-info">
+                  <span>Design</span>
+                  <h2>
+                    <a href="/">Blue business mockup cards</a>
+                  </h2>
+                </div>
+                <div class="button">
+                  <a href="/" class="pf-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+          <!-- Single Item -->
+          <div class="col-lg-6 item-center">
+            <div
+              class="portfolio-style-one animate"
+              data-animate="fadeInDown"
+              data-duration="2.5s"
+            >
+              <div class="thumb-zoom">
+                <img
+                  src="https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/Homepage2/restaurant-2.png"
+                  alt="Image Not Found"
+                />
+              </div>
+              <div class="pf-item-info">
+                <div class="content-info">
+                  <span>Business</span>
+                  <h2>
+                    <a href="/">Simple black & white design </a>
+                  </h2>
+                </div>
+                <div class="button">
+                  <a href="/" class="pf-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+
+    <!-- Start Fun Factor 
+    ============================================= -->
+    <div class="fun-factor-circle-area default-padding-bottom bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="fun-fact-circle-lists">
+              <!-- Single item -->
+              <div class="fun-fact animate" data-animate="fadeInDown">
+                <div class="counter">
+                  <div class="timer" data-to="360" data-speed="3000">360</div>
+                  <div class="operator">K</div>
+                </div>
+                <span class="medium">World Customer</span>
+              </div>
+              <!-- End Single item -->
+              <!-- Single item -->
+              <div
+                class="fun-fact animate"
+                data-animate="fadeInUp"
+                data-duration="0.5s"
+              >
+                <div class="counter">
+                  <div class="timer" data-to="98" data-speed="3000">98</div>
+                  <div class="operator">%</div>
+                </div>
+                <span class="medium">Positive Rating</span>
+              </div>
+              <!-- End Single item -->
+              <!-- Single item -->
+              <div class="fun-fact animate" data-animate="fadeInDown">
+                <div class="counter">
+                  <div class="timer" data-to="874" data-speed="3000">874</div>
+                  <div class="operator">+</div>
+                </div>
+                <span class="medium">Total Branch</span>
+              </div>
+              <!-- End Single item -->
+              <!-- Single item -->
+              <div
+                class="fun-fact animate"
+                data-animate="fadeInUp"
+                data-duration="0.5s"
+              >
+                <div class="counter">
+                  <div class="timer" data-to="35" data-speed="1000">35</div>
+                </div>
+                <span class="medium">Years experience</span>
+              </div>
+              <!-- End Single item -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Fun Factor -->
+
+    <!-- Start Brand Area 
+    ============================================= -->
+    <div class="brand-area relative overflow-hidden bg-gradient text-light">
+      <div class="brand-style-one">
+        <div class="container-fill">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="brand-items">
+                <div class="brand-conetnt">
+                  <div class="item">
+                    <h2>Marketing</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Branding</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Design</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Development</h2>
+                  </div>
+                </div>
+                <div class="brand-conetnt">
+                  <div class="item">
+                    <h2>Marketing</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Branding</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Design</h2>
+                  </div>
+                  <div class="item">
+                    <h2>Development</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Bradn Area -->
+
+    <!-- Start Why Choose Us 
+    ============================================= -->
+    <div class="choose-us-style-one-area default-padding bg-gray">
+      <div class="container">
+        <div class="row align-center">
+          <div class="col-lg-6">
+            <div class="choose-us-style-one-thumb">
+              <img
+                src="https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/Homepage1/testimonial-1.png"
+                alt="Image Not Found"
+              />
+              <a
+                href="https://www.youtube.com/watch?v=ipUuoMCEbDQ"
+                class="popup-youtube video-play-button"
+              >
+                <i class="fas fa-play"></i>
+                <div class="effect"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <div class="choose-us-style-one d-flex-between">
+              <div class="top-info">
+                <h4 class="sub-title">Why Avrix</h4>
+                <h2 class="title">Unlock revenue growth for your business</h2>
+              </div>
+              <div class="bottom-info">
+                <ul class="list-item">
+                  <li>Fast Development <strong>01</strong></li>
+                  <li>Full Flexibility <strong>02</strong></li>
+                  <li>Modern Design <strong>03</strong></li>
+                  <li>Simple Maintenance <strong>04</strong></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
-              <div class="position-re">
-                <div class="tab-content current" id="tab-1">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Mozzarella Dippers"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Mozzarella Dippers</div>
-                              <div class="dots"></div>
-                              <div class="price">$27.00</div>
-                            </div>
-                            <p>
-                              <i>Fried mozzarella sticks, marinara sauce</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Buffalo Wings"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Buffalo Wings</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.50</div>
-                            </div>
-                            <p>
-                              <i>Spicy chicken wings, blue cheese sauce,
-                                carrot, celery</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Onion Rings"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Onion Rings</div>
-                              <div class="dots"></div>
-                              <div class="price">$15.00</div>
-                            </div>
-                            <p><i>Fried onion rings, smoked aioli</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Chilli Con Carne"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Chilli Con Carne</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p>
-                              <i>Spicy ground beef, bacon, kidney beans</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Onion Rings"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Onion Rings</div>
-                              <div class="dots"></div>
-                              <div class="price">$15.00</div>
-                            </div>
-                            <p><i>Fried onion rings, smoked aioli</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Chilli Con Carne"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Chilli Con Carne</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p>
-                              <i>Spicy ground beef, bacon, kidney beans</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Mozzarella Dippers"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Mozzarella Dippers</div>
-                              <div class="dots"></div>
-                              <div class="price">$27.00</div>
-                            </div>
-                            <p>
-                              <i>Fried mozzarella sticks, marinara sauce</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Buffalo Wings"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Buffalo Wings</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.50</div>
-                            </div>
-                            <p>
-                              <i>Spicy chicken wings, blue cheese sauce,
-                                carrot, celery</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-content" id="tab-2">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Rusty’s Burger"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Rusty’s Burger</div>
-                              <div class="dots"></div>
-                              <div class="price">$35.00</div>
-                            </div>
-                            <p>
-                              <i>Smoked pulled beef ribs, bbq sauce, cheddar,
-                                crispy</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Cajun Fish Steak"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Cajun Fish Steak</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.00</div>
-                            </div>
-                            <p>
-                              <i>Cajun spicied seabass, deep fried baby
-                                potatoes</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Southern Fried Chicken"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Southern Fried Chicken</div>
-                              <div class="dots"></div>
-                              <div class="price">$45.50</div>
-                            </div>
-                            <p>
-                              <i>Cajun coated chicken breast, fries and honey
-                                mustard</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="House Avocado Tempura"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">House Avocado Tempura</div>
-                              <div class="dots"></div>
-                              <div class="price">$40.00</div>
-                            </div>
-                            <p>
-                              <i>Sweetcorn kernels, butter, cloves garlic,
-                                potato</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Southern Fried Chicken"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Southern Fried Chicken</div>
-                              <div class="dots"></div>
-                              <div class="price">$45.50</div>
-                            </div>
-                            <p>
-                              <i>Cajun coated chicken breast, fries and honey
-                                mustard</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="House Avocado Tempura"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">House Avocado Tempura</div>
-                              <div class="dots"></div>
-                              <div class="price">$40.00</div>
-                            </div>
-                            <p>
-                              <i>Sweetcorn kernels, butter, cloves garlic,
-                                potato</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Rusty’s Burger"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Rusty’s Burger</div>
-                              <div class="dots"></div>
-                              <div class="price">$35.00</div>
-                            </div>
-                            <p>
-                              <i>Smoked pulled beef ribs, bbq sauce, cheddar,
-                                crispy</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Cajun Fish Steak"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Cajun Fish Steak</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.00</div>
-                            </div>
-                            <p>
-                              <i>Cajun spicied seabass, deep fried baby
-                                potatoes</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-content" id="tab-3">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Ceaser Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Ceaser Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$15.00</div>
-                            </div>
-                            <p>
-                              <i>Romaine lettuce, croutons, parmigiano</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Waldorf Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Waldorf Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$10.00</div>
-                            </div>
-                            <p>
-                              <i>Lettuce, celery, apple, grape, walnut,
-                                waldorf sauce</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Grilled Salmon Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Grilled Salmon Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$25.00</div>
-                            </div>
-                            <p>
-                              <i>Grilled salmon, mixed greens, capers, orange
-                                slices</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Chicken Cobb Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Chicken Cobb Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.50</div>
-                            </div>
-                            <p>
-                              <i>Iceberg lettuce, cherry tomatoes, blue
-                                cheese, avocado</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Grilled Salmon Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Grilled Salmon Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$25.00</div>
-                            </div>
-                            <p>
-                              <i>Grilled salmon, mixed greens, capers, orange
-                                slices</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Chicken Cobb Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Chicken Cobb Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.50</div>
-                            </div>
-                            <p>
-                              <i>Iceberg lettuce, cherry tomatoes, blue
-                                cheese, avocado</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Ceaser Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Ceaser Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$15.00</div>
-                            </div>
-                            <p>
-                              <i>Romaine lettuce, croutons, parmigiano</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Waldorf Salad"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Waldorf Salad</div>
-                              <div class="dots"></div>
-                              <div class="price">$10.00</div>
-                            </div>
-                            <p>
-                              <i>Lettuce, celery, apple, grape, walnut,
-                                waldorf sauce</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-content" id="tab-4">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="New York Cheesecake"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">New York Cheesecake</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p><i>Cheesecake, strawberry & lime salad</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Rusty’s ice-cream"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Rusty’s ice-cream</div>
-                              <div class="dots"></div>
-                              <div class="price">$10.50</div>
-                            </div>
-                            <p>
-                              <i>Vanilla, bourbon, cookie, chocolate
-                                ice-cream</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Vegan Potato Waffles"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Vegan Potato Waffles</div>
-                              <div class="dots"></div>
-                              <div class="price">$18.00</div>
-                            </div>
-                            <p>
-                              <i>Chocolate chip cookies, marshmallow,
-                                chocolate</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Apple & Pear Crumble"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Apple & Pear Crumble</div>
-                              <div class="dots"></div>
-                              <div class="price">$40.00</div>
-                            </div>
-                            <p>
-                              <i>Caramelized pear, oat crumble, vanilla
-                                ice-cream</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Vegan Potato Waffles"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Vegan Potato Waffles</div>
-                              <div class="dots"></div>
-                              <div class="price">$18.00</div>
-                            </div>
-                            <p>
-                              <i>Chocolate chip cookies, marshmallow,
-                                chocolate</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Apple & Pear Crumble"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Apple & Pear Crumble</div>
-                              <div class="dots"></div>
-                              <div class="price">$40.00</div>
-                            </div>
-                            <p>
-                              <i>Caramelized pear, oat crumble, vanilla
-                                ice-cream</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="New York Cheesecake"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">New York Cheesecake</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p><i>Cheesecake, strawberry & lime salad</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Rusty’s ice-cream"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Rusty’s ice-cream</div>
-                              <div class="dots"></div>
-                              <div class="price">$10.50</div>
-                            </div>
-                            <p>
-                              <i>Vanilla, bourbon, cookie, chocolate
-                                ice-cream</i>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-content" id="tab-5">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Riscos Malbec"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Riscos Malbec</div>
-                              <div class="dots"></div>
-                              <div class="price">$25.00</div>
-                            </div>
-                            <p><i>Full, Redcurrant, Spice, Chile</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Dom Perignon"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Dom Perignon</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.00</div>
-                            </div>
-                            <p><i>Stylish, Premium, Iconic, Champagne</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Amarone Classico"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Amarone Classico</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p><i>Intense, Rich, Spice, Italy</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Valle Berta Gavi"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Valle Berta Gavi</div>
-                              <div class="dots"></div>
-                              <div class="price">$45.00</div>
-                            </div>
-                            <p><i>Clean, Soft, Honeysuckle, Italy</i></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Amarone Classico"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Amarone Classico</div>
-                              <div class="dots"></div>
-                              <div class="price">$20.00</div>
-                            </div>
-                            <p><i>Intense, Rich, Spice, Italy</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Valle Berta Gavi"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Valle Berta Gavi</div>
-                              <div class="dots"></div>
-                              <div class="price">$45.00</div>
-                            </div>
-                            <p><i>Clean, Soft, Honeysuckle, Italy</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list mb-30">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Riscos Malbec"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Riscos Malbec</div>
-                              <div class="dots"></div>
-                              <div class="price">$25.00</div>
-                            </div>
-                            <p><i>Full, Redcurrant, Spice, Chile</i></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="menu-list">
-                        <div class="item">
-                          <div class="img">
-                            <a href="assets/img/category/menu1.jpg" class="image-popup-vertical-fit"
-                              title="Dom Perignon"><img src="assets/img/category/menu1.jpg" alt="" title="" />
-                            </a>
-                          </div>
-                          <div class="item-content">
-                            <div class="flex">
-                              <div class="title">Dom Perignon</div>
-                              <div class="dots"></div>
-                              <div class="price">$30.00</div>
-                            </div>
-                            <p><i>Stylish, Premium, Iconic, Champagne</i></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section> -->
-
-      <!-- ==============================================
-                            Describe section end
-            ============================================== -->
-
-      <!-- =================================================
-                            Product section 
-            ================================================= -->
-
-      <!-- =================================================
-                            Product section end
-            ================================================= -->
-
-      <!-- ============================================
-                            contact section
-            ================================================= -->
-      <!-- <section>
-                <div class="contact-area contact-area-2">
-                    <div class="video-area" data-background="assets/img/video-2.png">
-                        <div class="container">
-                            <div class="row">
-                                <div class="watch justify-content-center">
-                                    <a href="#" class="video-btn play-video"><span class="icofont-ui-play"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="describe-content" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="contact pt-3">
-                            <div class="container">
-                                <div class="form-wrapper">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="form-inside">
-                                                <div class="form-head">
-                                                    <div class="section-head text-center">
-                                                        <span class="sm-title ">Contact Us</span>
-                                                        <h2 class="sec-title">
-                                                            Contact Us Information
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="contact-form mt-20">
-                                                        <form action="#">
-                                                            <div class="row">
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="text" class="form-control" placeholder="Your Name *">
-                                                                        <span class="right-input-icon"><i
-                                                                                class="icofont-ui-user"></i></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="email" class="form-control" placeholder="Your Email *">
-                                                                        <span class="right-input-icon"><i
-                                                                                class="icofont-email"></i></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="text" class="form-control" placeholder="Your Phone *">
-                                                                        <span class="right-input-icon"><i
-                                                                                class="icofont-phone"></i></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="text" class="form-control" placeholder="Your Time *">
-                                                                        <span class="right-input-icon"><i
-                                                                                class="icofont-clock-time"></i></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="(this.type='text')">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-30">
-                                                                    <div class="input-group flex-nowrap">
-                                                                        <input type="text" class="form-control" placeholder="Your Location *">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-12 mb-15">
-                                                                    <textarea name="message" class="form-control" placeholder="Comment *" rows="5"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="submit-button-sec">
-                                                                <button type="submit" class="custom-btn">Submit
-                                                                    Request</button>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-none">
-                                            <div class="contact-offer">
-                                                <img src="assets/img/contact.png" alt="Image not found">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-      <!-- ============================================
-                            contact section end
-            ================================================= -->
-      <!-- ====================Pricing section============= -->
-      <!-- <section>
-                
-                <div class="pricing pricing-2 cpy-6">
-                  
-                    <div class="container">
-                       
-                        <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="form-head">
-                                <div class="section-head text-center mb-40">
-                                    <span class="sm-title"> Best Pricing </span>
-                                    <h2 class="sec-title"> Our Pricing Plan </h2>
-                                </div>
-                            </div>
-                        </div>
-                     
-                        <div class="pricing-card-sec">
-                          
-                            <div class="row pricing-row">
-                                <div class="col-md-4 col-sm-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                                    <div class="pricing-card">
-                                        <h4 class="plan-name">Basic</h4>
-                                        <h2 class="plan-price"><sup class="currency-type">$ </sup>49<sub class="package-time">/mo</sub></h2>
-                                        <ul class="future-list">
-                                            <li>
-                                                <p>Dolor sit amet</p>
-                                            </li>
-                                            <li>
-                                                <p>Sed diam nonummy</p>
-                                            </li>
-                                            <li>
-                                                <p>Nibh euismod tincidunt</p>
-                                            </li>
-                                            <li>
-                                                <p>Ut laoreet dolore</p>
-                                            </li>
-                                            <li>
-                                                <p>1 Day Finish</p>
-                                            </li>
-                                        </ul>
-                                        <a href="" class="custom-btn-alt">BUY NOW</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 mb-4 aos-init aos-animate z-1" data-aos="fade-up" data-aos-duration="1500">
-                                    <div class="pricing-card active">
-                                        <h4 class="plan-name">Professional</h4>
-                                        <h2 class="plan-price"><sup class="currency-type">$ </sup>149<sub class="package-time">/mo</sub></h2>
-                                        <ul class="future-list">
-                                            <li>
-                                                <p>Dolor sit amet</p>
-                                            </li>
-                                            <li>
-                                                <p>Sed diam nonummy</p>
-                                            </li>
-                                            <li>
-                                                <p>Nibh euismod tincidunt</p>
-                                            </li>
-                                            <li>
-                                                <p>Ut laoreet dolore</p>
-                                            </li>
-                                            <li>
-                                                <p>1 Day Finish</p>
-                                            </li>
-                                        </ul>
-                                        <a href="#" class="custom-btn-alt">BUY NOW</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
-                                    <div class="pricing-card">
-                                        <h4 class="plan-name">Unlimited</h4>
-                                        <h2 class="plan-price"><sup class="currency-type">$ </sup>199<sub class="package-time">/mo</sub></h2>
-                                        <ul class="future-list">
-                                            <li>
-                                                <p>Dolor sit amet</p>
-                                            </li>
-                                            <li>
-                                                <p>Sed diam nonummy</p>
-                                            </li>
-                                            <li>
-                                                <p>Nibh euismod tincidunt</p>
-                                            </li>
-                                            <li>
-                                                <p>Ut laoreet dolore</p>
-                                            </li>
-                                            <li>
-                                                <p>1 Day Finish</p>
-                                            </li>
-                                        </ul>
-                                        <a href="#" class="custom-btn-alt">BUY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                          
-                        </div>
-                       
-                    </div>
-                  
-                </div>
-            </section> -->
-      <!-- ====================Pricing section end============= -->
-
-      <!-- ==================Customers========== -->
-      <section class="faq cpy-8" id="faq">
-        <div class="container">
-            <div class="section-head text-center " data-aos="fade-up" data-aos-duration="1000">
-                <span class="sm-title ">Help center</span>
-                <h2 class="sec-title text-black">How can we help?</h2>
-            </div>
-            <div class="row mt-40">
-                <div class="col-md-12 col-lg-12">
-                    <div class="faq__main">
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="faq__que">
-                                <button>What by means of HRM software?</button> <i class="icofont-minus"></i>
-                            </div>
-                            <div class="faq__ans">
-                                <p>An human resource management app is a technology that helps you automate and simplify your complex HR processes and manage them without any human intervention
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="1500">
-                            <div class="faq__que">
-                                <button>Does it generate real-time reports?</button> <i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>Yes our HRM software are generate all real time report when you want.</p>
-                            </div>
-                        </div>
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="faq__que">
-                                <button>It's suitable for machine attendance?</button><i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>Yes, Our software attendance system are based on machine attendance, its accept csv and txt file formate.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-12">
-                    <div class="faq__main">
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="faq__que">
-                                <button>If i face any problem how i solved it?</button><i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>Our service center are always ready to help you.so don't worry just knock us 24/7.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="1400">
-                            <div class="faq__que">
-                                <button>How can an employee take leave here??</button><i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>They will first submit a leave application here.Then admin check his/her all due report and loan report then admin can leave him/her with leave letter.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="1600">
-                            <div class="faq__que">
-                                <button>Does it have loan and advance system for employee?</button><i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>yes , Its have.</p>
-                            </div>
-                        </div>
-                        <div class="faq__content" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="faq__que">
-                                <button>Increment section available?</button><i class="icofont-plus"></i>
-                            </div>
-                            <div class="faq__ans" style="display: none;">
-                                <p>Yes, increment and decrement both section are available.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-      <section>
-        <div class="describe describe-2">
-          <div class="container">
-            <div class="row">
-              <div class="describe-content" data-aos="fade-up" data-aos-duration="1000">
-                <div class="describe-content">
-                  <p class="describe-sm-title mb-0">Call To Action</p>
-                  <h2 class="call-sec-title mb-0">
-                    Hire Your Next Candidate On Discate
-                  </h2>
-                  <p class="call-number mb-0">Call Us: +99 698 569 565</p>
-                  <a href="menu.html" class="custom-btn">Discover More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ========================Footer ============= -->
-      <footer>
-        <!-- footer section  -->
-        <div class="footer-section footer-2">
-          <!-- data-background="assets/img/footer-bg.png"  -->
-          <!-- container  -->
-          <div class="container">
-           
-
-            <div class="row">
-              
-                <div class="col-lg-3 col-md-6 col-sm-12 my-2 smpadright40 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-logo mb-4">
-                      <img src="assets/img/logo.svg" alt="Logo not found" class="logo-img">
-                    </div>
-                  
-                  </div>
-                </div>
-
-                
-                <div class="col-lg-3 padLeft col-md-6 col-sm-6 my-2 padleft40 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-sec-head mb-4">
-                      <h4 class="footer-widget-title">Quick links</h4>
-                    </div>
-                    <ul>
-                      <!-- <li class=""><a href="index.html">Home</a></li> -->
-                      <li class=""><a href="service.html">Service</a></li>
-                      <li><a href="work.html">Work</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <!-- <li class=""><a href="blog.html">Blog</a></li> -->
-
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </div>     
-
-                <div class="col-lg-3 padLeft col-md-6 col-sm-6 my-2 smpadright40" data-aos="fade-up" data-aos-duration="1000">
-                  <div class="footer-content-wrapper address-text">
-                    <div class="footer-logo mb-4">
-                      <h4 class="footer-widget-title">Address</h4>
-                      <!-- <img src="assets/img/logo.svg" alt="Logo not found" class="logo-img" /> -->
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit consectetur, ame adipiscing elit,
-                      sed do
-                    </p>
-                    <ul class="address">
-                      <li>
-                        <span class="icofont-location-pin"></span>
-                        <p class="address-info">
-                          4920 Trails End Road Ft United States, FL 33311
-                        </p>
-                      </li>
-
-                      <li>
-                        <span class="icofont-email"></span>
-                        <div class="address-inner">
-                          <p class="address-info">
-                            <a href="mailto:nfo@example.com">nfo@example.com</a>
-                          </p>
-                          <p class="address-info">
-                            <a href="mailto:test@example.com">test@example.com</a>
-                          </p>
-                        </div>
-                      </li>
-
-                      <li>
-                        <span class="icofont-ui-call"> </span>
-                        <div class="address-inner">
-                          <p class="address-info">
-                            <a href="tel:+123456679123">+123 456 679 123</a>
-                          </p>
-                          <p class="address-info">
-                            <a href="tel:+123456789">+123 456 789</a>
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            
-
-                <div class="col-lg-3 padLeft col-md-6 col-sm-12 my-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2500">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-sec-head mb-4">
-                      <h4 class="footer-widget-title">Follow us</h4>
-                    </div>
-
-                    <!-- <p class="subscribe-des">
-                      Lorem ipsum dolor si consectetur adipisicing elit, sed
-                      eiusmotempor incididunt ut labore et
-                    </p> -->
-
-                    <!-- <form class="hero-form" action="#">
-                      <div class="input-group mb-3">
-                        <input type="text" class="form-control subscribtion-input" placeholder="Enter Your Email" />
-                        <button type="submit" class="custom-btn">
-                          <span class="icofont-location-arrow"></span>
-                        </button>
-                      </div>
-                    </form> -->
-                    <ul class="social-ul social-link-text">
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-facebook"></span></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-twitter"></span></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-skype"></span></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              
-            </div>
-            <!-- mid footer -->
-
-            <div class="row last-footer ">
-              <div class="flex justify-content-between align-items-start py-5">
-                <!-- <div class="col-lg-4 col-md-6 col-sm-6 my-2 smpadright40" data-aos="fade-up" data-aos-duration="1000">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-logo mb-4">
-                      <img src="assets/img/logo.svg" alt="Logo not found" class="logo-img" />
-                    </div>
-                   
-                  </div>
-                </div> -->
-                <div class="col-lg-4  col-md-6 col-sm-6 my-2 " data-aos="fade-up" data-aos-duration="2500">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-sec-head mb-4">
-                      <h6 class="footer-widget-title1 ">CORE PARTNERS</h6>
-                    </div>
-
-                  
-                    <ul class="social-ul social-gap pt-3">
-                      <li class="social-list">
-                        <a href="#" class="social-link1"><svg id="icon-google" viewBox="0 0 32 32"> <path d="M30.674 15.845c0-1.053-0.085-2.111-0.268-3.147h-14.609v5.964h8.366c-0.347 1.923-1.463 3.625-3.096 4.706v3.87h4.991c2.931-2.697 4.615-6.681 4.615-11.393z"></path> <path d="M15.798 30.977c4.177 0 7.7-1.372 10.267-3.739l-4.991-3.87c-1.389 0.945-3.181 1.48-5.27 1.48-4.041 0-7.467-2.726-8.696-6.391h-5.15v3.989c2.629 5.23 7.984 8.531 13.84 8.531z"></path> <path d="M7.102 18.457c-0.649-1.924-0.649-4.007 0-5.93v-3.989h-5.145c-2.197 4.376-2.197 9.532 0 13.909l5.145-3.989z"></path> <path d="M15.798 6.13c2.208-0.034 4.342 0.797 5.941 2.322l4.422-4.422c-2.8-2.629-6.516-4.075-10.363-4.029-5.856 0-11.211 3.301-13.841 8.536l5.145 3.989c1.224-3.671 4.655-6.397 8.696-6.397z"></path> </svg></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link1"> <svg id="icon-hubspot" viewBox="0 0 32 32"> <path d="M24.219 10.575v-3.795c1-0.476 1.681-1.477 1.688-2.636v-0.090c-0.005-1.613-1.31-2.919-2.922-2.924h-0.090c-1.613 0.005-2.919 1.31-2.924 2.922v0.090c0.005 1.155 0.678 2.151 1.652 2.623l0.017 0.008 0.017 0.008v3.803c-1.521 0.238-2.866 0.858-3.974 1.759l0.015-0.012 0.016-0.012-10.437-8.128c0.071-0.257 0.112-0.553 0.112-0.858 0-1.839-1.491-3.329-3.329-3.329s-3.329 1.491-3.329 3.329c0 1.839 1.491 3.329 3.329 3.329 0.617 0 1.194-0.168 1.69-0.46l-0.016 0.008-0.016 0.008 10.261 7.988c-0.867 1.284-1.384 2.866-1.384 4.569 0 0.009 0 0.018 0 0.027v-0.001c0 1.791 0.567 3.451 1.529 4.808l-0.017-0.025-3.123 3.123c-0.23-0.077-0.496-0.123-0.772-0.127l-0.002-0h-0.003c-1.497 0-2.711 1.214-2.711 2.711s1.214 2.711 2.711 2.711c1.497 0 2.711-1.214 2.711-2.711v0c-0.003-0.285-0.052-0.557-0.137-0.812l0.005 0.019 0.005 0.019 3.089-3.089c1.385 1.067 3.145 1.709 5.055 1.709 4.6 0 8.329-3.729 8.329-8.329 0-4.134-3.011-7.564-6.96-8.217l-0.048-0.007zM22.933 23.077c-2.356-0.006-4.264-1.918-4.264-4.275 0-2.361 1.914-4.275 4.275-4.275s4.275 1.914 4.275 4.275v0 0.003c-0.002 2.36-1.915 4.272-4.275 4.272-0.004 0-0.008 0-0.011 0h0.001z"></path> </svg></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link1"><svg id="icon-wordpress" viewBox="0 0 32 32"> <path d="M30.976 15.488c0-8.534-6.954-15.488-15.488-15.488-8.549 0-15.488 6.954-15.488 15.488 0 8.549 6.939 15.488 15.488 15.488 8.534 0 15.488-6.939 15.488-15.488zM12.050 23.805l-5.281-14.172c0.852-0.031 1.812-0.124 1.812-0.124 0.774-0.093 0.681-1.75-0.093-1.719 0 0-2.246 0.17-3.671 0.17-0.279 0-0.573 0-0.898-0.016 1.255-1.922 2.971-3.498 4.992-4.586s4.282-1.652 6.577-1.64c3.609 0 6.892 1.347 9.37 3.624-1.053-0.17-2.556 0.604-2.556 2.447 0 1.146 0.697 2.106 1.394 3.252 0.542 0.945 0.852 2.106 0.852 3.81 0 2.308-2.168 7.744-2.168 7.744l-4.693-12.963c0.836-0.031 1.27-0.263 1.27-0.263 0.774-0.077 0.681-1.936-0.093-1.89 0 0-2.23 0.186-3.686 0.186-1.347 0-3.609-0.186-3.609-0.186-0.774-0.046-0.867 1.859-0.093 1.89l1.425 0.124 1.951 5.281-2.803 9.030zM26.965 15.488c0.372-0.991 1.146-2.896 0.666-6.582 1.084 1.998 1.626 4.197 1.626 6.582 0 5.096-2.679 9.665-6.815 12.050 1.502-4.011 3.005-8.054 4.523-12.050zM9.448 28.018c-4.615-2.23-7.729-7.063-7.729-12.53 0-2.013 0.356-3.841 1.115-5.56 2.199 6.025 4.399 12.065 6.613 18.090zM15.689 17.749l3.996 10.811c-1.332 0.449-2.726 0.697-4.197 0.697-1.224 0-2.432-0.17-3.547-0.511 1.255-3.686 2.509-7.341 3.748-10.996z"></path> </svg></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              
-
-                <div class="col-lg-4  col-md-6 col-sm-6 my-2 d-flex justify-content-end " data-aos="fade-up" data-aos-duration="2500">
-                  <div class="footer-content-wrapper">
-                    <div class="footer-sec-head mb-4">
-                      <h6 class="footer-widget-title1">CONNECT WITH US</h6>
-                    </div>
-
-                  
-                    <ul class="social-ul  social-link-text pt-3">
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-facebook"></span> </a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-twitter"></span></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-skype"></span></a>
-                      </li>
-
-                      <li class="social-list">
-                        <a href="#" class="social-link"><span class="icofont-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              
-              </div>
-            </div>
-
-            <!-- row end  -->
-          </div>
-          <!-- container end  -->
-          <!-- last footer  -->
-          <div class="last-footer1">
-            <div class="container last-footer1 py-3">
-              <div class="row">
-                <div class="text-center">
-                  <p class="copyright-text">
-                    © Copyright Qeep. 2023 All Right Reserved
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- last footer end  -->
-        </div>
-        <!-- footer section end  -->
-      </footer>
-
-      
-      <!-- ========================Footer end============= -->
+      </div>
     </div>
-    <!-- =======================body wrapper end========= -->
-  </div>
-  <!-- ====main wrapper end == -->
+    <!-- End Why Choose Us -->
 
-  <!-- ======script======= -->
-  <!-- =====jquery===== -->
-  <script src="assets/js/jquery/jquery.min.js"></script>
-  <!-- =====bootstrap===== -->
-  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
-  <!-- ======slider===== -->
-  <script src="assets/js/swiper/swiper-bundle.min.js"></script>
+    <!-- Start Testimonial Area 
+    ============================================= -->
+    <div class="testimonial-style-one-area default-padding-top">
+      <div class="container">
+        <div class="heading-left">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content-left">
+                <h4 class="sub-title">Testimonials</h4>
+                <h2 class="title">What people say</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <!-- ===============animation========= -->
-  <script src="assets/js/jquery.nice-select.min.js"></script>
-  <script src="assets/js/animation/aos.js"></script>
-  <script src="assets/js/meanmenu.js"></script>
-  <!-- ======custom script====== -->
-  <!-- ======mixitup======= -->
-  <script src="assets/js/mixitup/mixitup.min.js"></script>
-  <!-- ======mixitup======= -->
-  <script src="assets/js/app.js"></script>
-  <!-- ========mixitup init========= -->
-  <script src="assets/js/mixitup.js"></script>
-</body>
+      <div class="container">
+        <div class="row">
+          <div class="testimonial-one-carousel-box">
+            <div class="testimonial-style-one-carousel swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Single item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-style-one">
+                    <div class="provider">
+                      <div class="thumb">
+                        <img
+                          src="assets/img/team/15.jpg"
+                          alt="Image Not Found"
+                        />
+                        <div class="quote">
+                          <img
+                            src="assets/img/shape/quote-big.png"
+                            alt="Image Not Found"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h4>Matthew J. Wyman</h4>
+                        <span>Senior Consultant</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Targeting consultation discover apartments. ndulgence
+                        off under folly death wrote cause her way spite. Plan
+                        upon yet way get cold spot its week. Almost do am or
+                        limits hearts. Resolve parties but why she shewing. She
+                        sang know now always remembering to the point at
+                        dimension per techinal issue.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single item -->
+                <!-- Single item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-style-one">
+                    <div class="provider">
+                      <div class="thumb">
+                        <img
+                          src="assets/img/team/9.jpg"
+                          alt="Image Not Found"
+                        />
+                        <div class="quote">
+                          <img
+                            src="assets/img/shape/quote-big.png"
+                            alt="Image Not Found"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h4>Anthom Bu Spar</h4>
+                        <span>Marketing Manager</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Targeting consultation discover apartments. ndulgence
+                        off under folly death wrote cause her way spite. Plan
+                        upon yet way get cold spot its week. Almost do am or
+                        limits hearts. Resolve parties but why she shewing. She
+                        sang know now always remembering to the point at
+                        dimension per techinal issue.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single item -->
+                <!-- Single item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-style-one">
+                    <div class="provider">
+                      <div class="thumb">
+                        <img
+                          src="assets/img/team/14.jpg"
+                          alt="Image Not Found"
+                        />
+                        <div class="quote">
+                          <img
+                            src="assets/img/shape/quote-big.png"
+                            alt="Image Not Found"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h4>Metho k. Partho</h4>
+                        <span>Senior Developer</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Targeting consultation discover apartments. ndulgence
+                        off under folly death wrote cause her way spite. Plan
+                        upon yet way get cold spot its week. Almost do am or
+                        limits hearts. Resolve parties but why she shewing. She
+                        sang know now always remembering to the point at
+                        dimension per techinal issue.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single item -->
+              </div>
+            </div>
 
-<!-- Mirrored from cafeu-html.codebasket.net/cafeu-html/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Oct 2023 10:24:14 GMT -->
+            <!-- Navigation -->
+            <div class="testimonial-one-swiper-nav">
+              <!-- Pagination -->
+              <div class="testimonial-one-pagination"></div>
 
+              <div class="testimonial-one-button-prev"></div>
+              <div class="testimonial-one-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial Area -->
+
+    <!-- Start Slide Section 
+    ============================================= -->
+    <div class="multi-section overflow-hidden bg-dark-secondary text-light">
+      <div class="bg-shape-top">
+        <img src="assets/img/shape/bg-shape-1.png" alt="Image Not Found" />
+      </div>
+
+      <div class="thecontainer">
+        <!-- Single Section -->
+        <div class="panel overflow-hidden">
+          <div class="container overflow-hidden">
+            <div class="row align-center">
+              <div class="col-lg-4">
+                <div class="site-title">
+                  <h4 class="sub-title">Award & Achivement</h4>
+                  <h2 class="title">Awards & Recognitions</h2>
+                </div>
+              </div>
+              <div class="col-lg-7 offset-lg-1">
+                <div class="achivement-items">
+                  <div class="achivement-grid">
+                    <div class="achivement-item">
+                      <i class="fab fa-behance"></i>
+                      <h4>Behance Awards</h4>
+                    </div>
+                    <div class="achivement-item">
+                      <i class="fas fa-layer-group"></i>
+                      <h4>Design Awards</h4>
+                    </div>
+                  </div>
+                  <div class="achivement-grid">
+                    <div class="achivement-item">
+                      <i class="fab fa-laravel"></i>
+                      <h4>Programming Awards</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Section -->
+
+        <!-- Single Section -->
+        <div class="panel overflow-hidden bg-gradient">
+          <div class="container overflow-hidden">
+            <div class="expertise-area text-center">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="site-title">
+                    <h4 class="sub-title">Our Expertise</h4>
+                    <h2 class="title">Best solutions provider</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="achivement-skill-items">
+                    <!-- Progress Bar Start -->
+                    <div class="progress-box">
+                      <h5>Programming Language</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          data-width="79"
+                        >
+                          <span>79%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progress-box">
+                      <h5>Backend Development</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          data-width="95"
+                        >
+                          <span>95%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progress-box">
+                      <h5>Product Design</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          data-width="80"
+                        >
+                          <span>80%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Progressbar -->
+                    <div class="progress-box">
+                      <h5>UI/UX</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          data-width="67"
+                        >
+                          <span>67%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Progressbar -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Section -->
+
+        <!-- Single Section -->
+        <div class="panel contact-panel overflow-hidden">
+          <div
+            class="contact-panel-bg"
+            style="
+              background-image: url(https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/historypage/history-4.png);
+            "
+          ></div>
+          <div class="container overflow-hidden">
+            <div class="row">
+              <div class="col-lg-6">
+                <h4 class="sub-title">Have you project in mind?</h4>
+                <h2 class="title">For instant support please reach us</h2>
+                <a class="btn-round-animation dark mt-40" href="/"
+                  >Send Mail <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Section -->
+      </div>
+    </div>
+    <!-- End Slide Section -->
+
+    <!-- Start Blog 
+    ============================================= -->
+    <div class="blog-area home-blog default-padding bottom-less">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="site-heading text-center">
+              <h4 class="sub-title">News & Events</h4>
+              <h2 class="title">Latest blog posts</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- Single Item -->
+          <div class="col-xl-6 col-md-6 mb-30">
+            <div class="home-blog-style-one">
+              <div class="thumb">
+                <a href="/"
+                  ><img
+                    src="https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/historypage/history-2.png"
+                    alt="Image Not Found"
+                /></a>
+              </div>
+              <div class="info">
+                <div class="meta">
+                  <ul>
+                    <li>
+                      <a href="#">Md Sohag</a>
+                    </li>
+                    <li>25 April, 2023</li>
+                  </ul>
+                </div>
+                <h4 class="post-title">
+                  <a href="/">Miscovery incommode earnestly commanded if.</a>
+                </h4>
+                <a href="/" class="button-regular">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+          <!-- Single Item -->
+          <div class="col-xl-6 col-md-6 mb-30">
+            <div class="home-blog-style-one">
+              <div class="thumb">
+                <a href="/"
+                  ><img
+                    src="https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/historypage/history-3.png"
+                    alt="Image Not Found"
+                /></a>
+              </div>
+              <div class="info">
+                <div class="meta">
+                  <ul>
+                    <li>
+                      <a href="#">Md Sohag</a>
+                    </li>
+                    <li>25 April, 2023</li>
+                  </ul>
+                </div>
+                <h4 class="post-title">
+                  <a href="/">Expression acceptance imprudence particular</a>
+                </h4>
+                <a href="/" class="button-regular">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End Single Item -->
+        </div>
+      </div>
+    </div>
+    <!-- End Blog -->
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer>
+      <div class="footer-box">
+        <div class="container">
+          <div class="f-items default-padding-bottom pt-70 pt-xs-0">
+            <div class="row">
+              <!-- Singel Item -->
+              <div class="col-lg-3 col-md-6 footer-item mt-50">
+                <div class="f-item about pr-50 pr-xs-0 pr-md-0">
+                  <img class="logo" src="assets/img/qeeplogo.svg" alt="Logo" />
+                  <p>
+                    Are off under folly death writter transforming cold regular.
+                    Almost do am or limits of hearts.
+                  </p>
+                  <div class="footer-social mt-30">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End Singel Item -->
+
+              <!-- Singel Item -->
+              <div
+                class="col-lg-3 col-md-6 mt-50 footer-item pl-50 pl-md-15 pl-xs-15"
+              >
+                <div class="f-item link">
+                  <h4 class="widget-title">Company</h4>
+                  <ul>
+                    <li>
+                      <a href="/">Compnay Profile</a>
+                    </li>
+                    <li>
+                      <a href="/">About</a>
+                    </li>
+                    <li>
+                      <a href="/">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="/">Career</a>
+                    </li>
+                    <li>
+                      <a href="/">Features</a>
+                    </li>
+                    <li>
+                      <a href="/">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Singel Item -->
+
+              <!-- Singel Item -->
+              <div class="col-lg-3 col-md-6 footer-item mt-50">
+                <div class="f-item contact">
+                  <h4 class="widget-title">Contact Info</h4>
+                  <ul>
+                    <li>
+                      <div class="content">
+                        <strong>Address:</strong>
+                        5919 Trussville Crossings Pkwy, Birmingham
+                      </div>
+                    </li>
+                    <li>
+                      <div class="content">
+                        <strong>Email:</strong>
+                        <a href="/">info@qeeptheme.com</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="content">
+                        <strong>Phone:</strong>
+                        <a href="tel:2151234567">+123 34598768</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Singel Item -->
+
+              <!-- Singel Item -->
+              <div class="col-lg-3 col-md-6 footer-item mt-50">
+                <div class="f-item newsletter">
+                  <h4 class="widget-title">Newsletter</h4>
+                  <p>
+                    Join our subscribers list to get the instant latest news and
+                    special offers.
+                  </p>
+                  <form action="#">
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      class="form-control"
+                      name="email"
+                    />
+                    <button type="submit">
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <!-- End Singel Item -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom bg-dark text-light text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 offset-lg-3">
+                <p>Copyright &copy; 2023 Qeep. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Bottom -->
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/jquery.scrolla.min.js"></script>
+    <script src="assets/js/ScrollOnReveal.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/horizontal-scroll.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+
+  <!-- Mirrored from validthemes.net/site-template/avrix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Oct 2023 04:43:01 GMT -->
 </html>
